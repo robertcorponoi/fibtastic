@@ -6,7 +6,9 @@
   "scripts": {
     "test": "node_modules/.bin/mocha"
   },
-  "keywords": ["fibonacci"],
+  "keywords": [
+    "fibonacci"
+  ],
   "author": "Robert Corponoi",
   "license": "None",
   "devDependencies": {
