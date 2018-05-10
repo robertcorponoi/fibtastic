@@ -1,7 +1,7 @@
 "use strict"
 
 /**
- * @file Simple module to calculate a Fibonacci sequence up to a certain number of integers or to get just one specific value from anywhere in the sequence.
+ * @file Calculate a Fibonacci sequence up to a certain number of integers or to get just one specific value from anywhere in the sequence.
  * @author Robert Corponoi
  */
 
