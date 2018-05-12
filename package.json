@@ -1,6 +1,6 @@
 {
   "name": "fibtastic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Calculate a Fibonacci sequence up to a certain number of integers or to get just one specific value from anywhere in the sequence.",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,10 @@
   "keywords": [
     "fibonacci"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertcorponoi/fibtastic"
+  },
   "author": "Robert Corponoi",
   "license": "None",
   "devDependencies": {
