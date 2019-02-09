@@ -1,6 +1,6 @@
 {
   "name": "fibtastic",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Calculate a Fibonacci sequence up to a certain number of integers or to get just one specific value from anywhere in the sequence.",
   "main": "index.js",
   "module": "dist/fibtastic.js",

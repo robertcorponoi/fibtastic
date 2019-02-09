@@ -7,9 +7,13 @@
 <p align="center">Simple and easy to use tools to work with the Fibonacci sequence.<p>
 
 <div align="center">
-	<img src="https://img.shields.io/npm/v/fibtastic.svg?style=flat-square">
+	<a href="https://www.npmjs.com/package/fibtastic" target="__blank">
+		<img src="https://img.shields.io/npm/v/fibtastic.svg?style=flat-square">
+	</a>
 	<img src="https://img.shields.io/david/robertcorponoi/fibtastic.svg?style=flat-square">
-	<img src="https://img.shields.io/gitter/room/robertcorponoi/fibtastic.svg?style=flat-square">
+	<a href="https://gitter.im/robertcorponoi/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link" target="__blank">
+		<img src="https://img.shields.io/gitter/room/robertcorponoi/fibtastic.svg?style=flat-square">
+	</a>
 </div>
 
 ## **Installation**
