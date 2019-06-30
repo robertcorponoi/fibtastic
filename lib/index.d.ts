@@ -3,7 +3,7 @@
  *
  * @author Robert Corponoi <robertcorponoi@gmail.com>
  *
- * @version 1.0.0
+ * @version 2.0.0
  */
 /**
  * Get an array of the Fibonacci sequence from a specified start location to a specified end location.

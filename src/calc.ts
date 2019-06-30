@@ -22,7 +22,7 @@
  */
 export function binets(location: number): number {
 
-	const phi: number = 1.618033988749895;
+  const phi: number = getPhi();
 
 	return Math.round(((Math.pow(phi, location)) - (Math.pow(1 - phi, location))) / Math.sqrt(5));
 
@@ -43,9 +43,7 @@ export function binets(location: number): number {
  */
 export function inverseBinets(value: number): number {
 
-	const phi: number = 1.618033988749895;
-
-	return Math.round((Math.log((value * Math.sqrt(5)) / 2)) / (Math.log(phi))) + 1;
+	return Math.round((Math.log((value * Math.sqrt(5)) / 2)) / (Math.log(getPhi()))) + 1;
 
 }
 
@@ -65,5 +63,21 @@ export function inverseBinets(value: number): number {
 export function isFib(value: number): boolean {
 
 	return Number.isInteger(Math.sqrt(5 * Math.pow(value, 2) + 4)) || Number.isInteger(Math.sqrt(5 * Math.pow(value, 2) - 4));
+
+}
+
+/**
+ * Return the number for phi so it doesn't have to be declared outside of any function scope or repeated
+ * twice for any function.
+ * 
+ * @since 2.0.0
+ * 
+ * @private
+ * 
+ * @returns {number} Returns the number for phi.
+ */
+function getPhi(): number {
+
+  return 1.618033988749895;
 
 }

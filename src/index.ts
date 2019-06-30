@@ -7,7 +7,7 @@ import * as calc from './calc';
  * 
  * @author Robert Corponoi <robertcorponoi@gmail.com>
  * 
- * @version 1.0.0
+ * @version 2.0.0
  */
 
 /**
@@ -44,9 +44,9 @@ export function sequence(start: number, end: number): Array<number> {
 	// the slice they need.
 	if (end <= 2) return result.slice(0, end);
 
-	for (let i = 0; i < end; ++i) {
+	for (let i: number = 0; i < end; ++i) {
 
-		const currentValue = i + 2;
+		const currentValue: number = i + 2;
 
 		result[currentValue] = result[currentValue - 1] + result[currentValue - 2];
 

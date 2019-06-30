@@ -20,7 +20,7 @@
  */
 
 function binets(location) {
-  var phi = 1.618033988749895;
+  var phi = getPhi();
   return Math.round((Math.pow(phi, location) - Math.pow(1 - phi, location)) / Math.sqrt(5));
 }
 /**
@@ -38,8 +38,7 @@ function binets(location) {
  */
 
 function inverseBinets(value) {
-  var phi = 1.618033988749895;
-  return Math.round(Math.log(value * Math.sqrt(5) / 2) / Math.log(phi)) + 1;
+  return Math.round(Math.log(value * Math.sqrt(5) / 2) / Math.log(getPhi())) + 1;
 }
 /**
  * Checks to see whether a specified value is a part of the Fibonacci sequence or not.
@@ -58,13 +57,27 @@ function inverseBinets(value) {
 function isFib(value) {
   return Number.isInteger(Math.sqrt(5 * Math.pow(value, 2) + 4)) || Number.isInteger(Math.sqrt(5 * Math.pow(value, 2) - 4));
 }
+/**
+ * Return the number for phi so it doesn't have to be declared outside of any function scope or repeated
+ * twice for any function.
+ * 
+ * @since 2.0.0
+ * 
+ * @private
+ * 
+ * @returns {number} Returns the number for phi.
+ */
+
+function getPhi() {
+  return 1.618033988749895;
+}
 
 /**
  * Fibtastic provides methods to easily work with the Fibonacci sequence.
  * 
  * @author Robert Corponoi <robertcorponoi@gmail.com>
  * 
- * @version 1.0.0
+ * @version 2.0.0
  */
 
 /**
