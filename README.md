@@ -24,6 +24,12 @@ To install this module through npm, simply use the following command:
 $ npm install --save fibtastic
 ```
 
+and then require it in your project like so:
+
+```js
+const fibtastic = require('fibtastic');
+```
+
 or if you use ES6 modules in the browser, you can import it:
 
 ```js
@@ -118,6 +124,14 @@ const isValue = fibonacci.isValue(1);
 
 console.log(isValue); 
 // => true
+```
+
+## **Running Tests**
+
+To run the tests, use:
+
+```
+npm run test
 ```
 
 ## **License**
