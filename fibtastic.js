@@ -151,4 +151,4 @@ function isValue(value) {
   if (value > 0 && value < 2) return true;else if (isFib(value)) return inverseBinets(value);else return false;
 }
 
-export { sequence, value, isValue };
+export { isValue, sequence, value };
