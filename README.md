@@ -33,7 +33,7 @@ const fibtastic = require('fibtastic');
 or if you use ES6 modules in the browser, you can import it:
 
 ```js
-import * as fibonacci from './node_modules/dist/fibtastic.js';
+import * as fibonacci from './node_modules/fibtastic/fibtastic.js';
 ```
 
 ## **Basic Example**
