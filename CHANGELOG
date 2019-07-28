@@ -1,3 +1,7 @@
+2.0.3 / 2019-07-28
+==================
+* [FEATURE] Switched to AVA as the testing framework and removed mocha and chai as dependencies
+
 2.0.2 / 2019-07-28
 ==================
 * [HOTFIX] Updated README to fix wrong path for browser import
