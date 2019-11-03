@@ -7,13 +7,14 @@
 <p align="center">Simple and easy to use tools to work with the Fibonacci sequence.<p>
 
 <div align="center">
-	<a href="https://www.npmjs.com/package/fibtastic" target="__blank">
-		<img src="https://img.shields.io/npm/v/fibtastic.svg?style=flat-square">
-	</a>
-	<img src="https://img.shields.io/david/robertcorponoi/fibtastic.svg?style=flat-square">
-	<a href="https://gitter.im/robertcorponoi/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link" target="__blank">
-		<img src="https://img.shields.io/gitter/room/robertcorponoi/fibtastic.svg?style=flat-square">
-	</a>
+
+  [![NPM version](https://img.shields.io/npm/v/fibtastic.svg?style=flat)](https://www.npmjs.com/package/fibtastic)
+  [![Known Vulnerabilities](https://snyk.io/test/github/robertcorponoi/fibtastic/badge.svg)](https://snyk.io/test/github/robertcorponoi/fibtastic)
+  [![NPM downloads](https://img.shields.io/npm/dm/fibtastic.svg?style=flat)](https://www.npmjs.com/package/fibtastic)
+  <a href="https://badge.fury.io/js/fibtastic"><img src="https://img.shields.io/github/issues/robertcorponoi/fibtastic.svg" alt="issues" height="18"></a>
+  <a href="https://badge.fury.io/js/fibtastic"><img src="https://img.shields.io/github/license/robertcorponoi/fibtastic.svg" alt="license" height="18"></a>
+  [![Gitter](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/robertcorponoi)
+
 </div>
 
 ## **Installation**
@@ -27,13 +28,14 @@ $ npm install --save fibtastic
 and then require it in your project like so:
 
 ```js
+// Node
 const fibtastic = require('fibtastic');
-```
 
-or if you use ES6 modules in the browser, you can import it:
+// Webpack
+import * as fibtastic from 'fibtastic';
 
-```js
-import * as fibonacci from './node_modules/fibtastic/fibtastic.js';
+// Browser
+import * as fibtastic from '/path/to/fibtastic.js';
 ```
 
 ## **Basic Example**
