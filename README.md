@@ -10,6 +10,7 @@
 
   [![NPM version](https://img.shields.io/npm/v/fibtastic.svg?style=flat)](https://www.npmjs.com/package/fibtastic)
   [![Known Vulnerabilities](https://snyk.io/test/github/robertcorponoi/fibtastic/badge.svg)](https://snyk.io/test/github/robertcorponoi/fibtastic)
+  ![npm](https://img.shields.io/npm/dt/fibtastic)
   [![NPM downloads](https://img.shields.io/npm/dm/fibtastic.svg?style=flat)](https://www.npmjs.com/package/fibtastic)
   <a href="https://badge.fury.io/js/fibtastic"><img src="https://img.shields.io/github/issues/robertcorponoi/fibtastic.svg" alt="issues" height="18"></a>
   <a href="https://badge.fury.io/js/fibtastic"><img src="https://img.shields.io/github/license/robertcorponoi/fibtastic.svg" alt="license" height="18"></a>
